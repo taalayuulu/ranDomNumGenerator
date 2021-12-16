@@ -27,7 +27,7 @@ else {
     const random = Math.floor(Math.random() * (max.value - min.value + 1) + min.value);
     
 resultOfNum.innerHTML = random;
-//textVisible.style.visibility = "visible";
+textVisible.style.visibility = "visible";
 
 }
 
